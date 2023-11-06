@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-grid.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="../css/site.css">
+    <title>КСК "Движение"</title>
+</head>
+<body class="sign">
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="site1.html" class="navbar-brand">Движение</a>
+
+                <div class="navbar-wrap">
+                    <ul class="navbar-menu">
+                        <li><a href="site1.html">О нас</a></li>
+                        <li><a href="our-horses.html">Наши лошади</a></li>
+                        <li><a href="тренировки.html">Тренировки</a></li>
+                        <li><a href="sign-up.html" class="active">Запись</a></li>
+                        <li><a href="alg.html" class="tel">&#9742;</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <section style="margin-left: 380px;">
+        <figure class="figure2">
+            <figcaption class="fig2">
+                <form action="https://www.yandex.ru/search?" method="get" target="_blank">
+                <div>
+                    <p class="fig">Запись на пробную тренировку</p><br>
+                    <b style="text-stroke: 10px #261a12; -webkit-text-stroke: 1px #261a12;">ПЕРСОНАЛЬНАЯ ИНФОРМАЦИЯ</b>
+                     <table cellspacing="0" cellpadding="5">
+                       <tr>
+                         <td>Фамилия</td>
+                         <td><input type="text" id="sname" name="sname" placeholder="Иванов"/></td>
+                       </tr>
+                       <tr>
+                         <td>Имя</td>
+                         <td><input type="text" id="fname" name="myname" placeholder="Иван"/></td>
+                       </tr>
+                       <tr>
+                         <td><label for="quantity">Возраст</label></td>
+                         <td><input type="number" id="quantity" name="quantity" min="4" max="100"></td>
+                       </tr>
+                       <tr>
+                         <td>Телефон</td>
+                         <td><input type="tel" name="phone" placeholder="89000000000"/></td>
+                       </tr>
+                       <tr>
+                           <td>Серия и номер паспорта</td>
+                           <td><input type="password" name="pas" placeholder="5500 123456"/></td>
+                       </tr>
+                       <tr>
+                         <td>Желаемая дата тренировки</td>
+                         <td><input type="date" id="date" name="date" value="date"/></td>
+                       </tr>
+                     </table> <br><br>
+
+                    <b style="text-stroke: 10px #261a12; -webkit-text-stroke: 1px #261a12;">ДОПОЛНИТЕЛЬНАЯ ИФНОРМАЦИЯ</b>
+                    <table cellspacing="0" cellpadding="5">
+                         <tr>
+                         <td>Тренер</td>
+                         <td><p><select name="kitchen">
+                           <option disabled>Выберите тренера</option>
+                           <option value="Ivanov">Иванов Иван Иванович</option>
+                           <option value="Titova">Титова Татьяна Анатольевна</option>
+                           <option value="Semenova">Семёнова София Сергеевна</option>
+                           <option value="Arkadieva">Аркадьев Аркадий Аркадиевич</option>
+                           <option value="Any">Любой</option>
+                         </select></p></td>
+                       </tr>
+                     </table><br>
+
+                    <p>Был ли у вас опыт с лошадками?</p>
+                     <p><input type="radio" name="why" value="yesprof"/>Да, занимался(-ась) профессионально</p>
+                     <p><input type="radio" name="why" value="yeslyub"/>Да, но не профессиональный спорт</p>
+                     <p><input type="radio" name="why" value="no"/>Нет</p><br>
+
+                    <p>Откуда вы узнали о нас?</p>
+                     <input type="checkbox" id="rec" name="rec" value="rec">
+                     <label for="rec">Увидел(-а) рекламу</label><br>
+                     <input type="checkbox" id="friend" name="friend" value="friend">
+                     <label for="friend">По совету друзей/знакомых</label><br>
+                     <input type="checkbox" id="site" name="site" value="site">
+                     <label for="site">Наткнулся(-ась) на сайт</label><br>
+                    <br><br>
+
+                    <table cellspacing="0" cellpadding="5">
+                    <tr>
+                         <td>Комментарии к записи</td>
+                         <td><textarea cols="50" name="comment"></textarea></td>
+                    </tr>
+                    </table><br>
+
+                </div>
+            <br>
+                <div>
+                    <button type="reset">Очистить</button>
+                    <button type="submit">Отправить</button>
+                </div>
+                </form>
+            </figcaption>
+        </figure>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="../js/site.js"></script>
+</body>
+</html>
