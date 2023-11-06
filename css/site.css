@@ -1,0 +1,303 @@
+body {
+    position: relative;
+    font-family: 'Noto-Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+    background-color: #665849;
+}
+
+a.active {
+    text-shadow: #f2641d 0 0 12px;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+    background-color: #261a12;
+}
+
+.navbar .container {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: center;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    display: inline-block;
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 7px;
+    margin-right: 30px;
+    transition: all .1s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    opacity: 1;
+}
+
+.navbar a {
+    color: #f2f2f2;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: 30px;
+    text-decoration: none;
+    text-shadow: #f2641d 0 0 8px;
+    transition: all .2s ease-in-out;
+    text-color: #d99675;
+}
+
+.navbar-brand:hover {
+    color: #f2641d;
+    text-shadow: none;
+}
+
+.tel {
+    margin-right: 30px;
+    padding: 10px;
+    text-decoration: none;
+    text-shadow: #f2641d 0 0 5px;
+    transition: all .2s ease-out;
+}
+
+.tel:hover {
+    background-color: #f2641d;
+    border-radius: 100px;
+    text-shadow: none;
+}
+
+
+/* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 500px;
+  height: 700px;
+  position: relative;
+  margin: left;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #261a12;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ccc5be;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #261a12;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.main-main {
+   margin-top: -700px;
+   margin-left: 520px;
+   font-size: 250%;
+   color: #261a12;
+   text-shadow: #523a2e 0 0 2px;
+   border-color: #261a12;
+   border: 5px solid;
+   padding: 10px;
+   border-width: thin;
+   border-radius: 30px;
+   border-margin: center;
+   background: #827568;
+}
+
+.maintext {
+   margin-top: 50px;
+   margin-left: 530px;
+   font-size: 200%;
+   color: #261a12;
+}
+
+.spisok1 li a {
+    text-shadow: none;
+    font-size: 70%;
+    text-decoration: none;
+    padding: 7px;
+    color: #261a12;
+    margin-right: 30px;
+    transition: all .1s ease-in-out;
+}
+
+.spisok1 li a:hover {
+    color: #f7f7f7;
+    opacity: 0.5;
+}
+
+.figure1 {
+    background: #261a12;
+    padding: 15px;
+    width: 429px;
+    display: block;
+    float: left;
+    margin: 0 10px 10px 0;
+    border-radius: 30px;
+    opacity: 0.5;
+}
+
+.fig1 {
+    color: #f7f7f7;
+}
+
+.fig {
+    font-size: 130%;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: #f2641d 0 0 8px;
+}
+
+.bu {
+    width: 430px;
+    height: 530px;
+    border-radius: 30px;
+}
+
+.be {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.be img {
+    height: 100%;
+    width: auto;
+}
+
+body.sign {
+    background: url('../сайт/fon.jpg') no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.figure2 {
+    border: 5px solid;
+    border-color: #261a12;
+    background: #665849;
+    padding: 15px;
+    width: 600px;
+    display: block;
+    float: left;
+    margin: 20px 10px 10px 0;
+    border-radius: 30px;
+}
+
+.fig2 {
+    color: #f7f7f7;
+}
+
+ td {
+    height: 50px;
+    width: 180px;
+}
+
+.horse {
+   text-align: center;
+   font-size: 250%;
+   color: #261a12;
+   text-shadow: #523a2e 0 0 2px;
+   border-color: #261a12;
+   border: 5px solid;
+   padding: 10px;
+   border-width: thin;
+   border-radius: 30px;
+   background: #827568;
+}
+
+.figure3 {
+    background: #827568;
+    padding: 12px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin: 15px;
+    opacity: 1;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .4)
+}
+
+.fig3 {
+    color: #261a12;
+    font-size: 110%;
+}
